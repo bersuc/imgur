@@ -1,9 +1,21 @@
 {
-    "name": "imgur-API",
-    "version": "1.0.0",
-    "dependencies": {
-        "imgur": "^0.3.1",
-        "readline": "^1.3.0",
-        "readline-sync": "^1.4.9"
-    }
+  "name": "imgur-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "imgur": "^0.3.1",
+    "readline-sync": "^1.4.9"
+  },
+  "description": "Buscando por palavra e retornando o link de imagens do IMGUR",
+  "main": "imgur.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbersuc@gmail.com/https://github.com/bersuc/imgur.git"
+  },
+  "author": "Diogo Bersuc",
+  "license": "ISC"
 }
